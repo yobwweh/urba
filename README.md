@@ -30,13 +30,13 @@ La Persistance : Système de sauvegarde hybride stockant l'état du jeu en local
 
 ##  Roadmap de Développement Massive
 - **Phase 1** : Fondations & Moteur Core (Terminée)
-- [x] **Architecture Hybride** : Mise en place du pont flutter_rust_bridge.
+- [X] **Architecture Hybride** : Mise en place du pont flutter_rust_bridge.
 
-- [x] **Moteur Vectorisé** : Calcul des revenus groupés en Rust pour éviter la latence FFI.
+- [X] **Moteur Vectorisé** : Calcul des revenus groupés en Rust pour éviter la latence FFI.
 
-- [x] **Logique Exponentielle** : Implémentation des courbes de coûts et de gains en Rust.
+- [X] **Logique Exponentielle** : Implémentation des courbes de coûts et de gains en Rust.
 
-- [x] **Persistance** : Système de sauvegarde locale via JSON et SharedPreferences.
+- [X] **Persistance** : Système de sauvegarde locale via JSON et SharedPreferences.
 
  - **Phase 2** : Expérience Utilisateur (UI/UX)
 - [ ] **Dashboard Réactif** : Affichage de la balance avec animation de compteur (Ticker).
