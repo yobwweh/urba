@@ -1,0 +1,12 @@
+[package]
+name = "urba_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# Important pour que cela fonctionne sur Android/iOS
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+# La librairie qui permet la communication
+flutter_rust_bridge = "=2.11.1"

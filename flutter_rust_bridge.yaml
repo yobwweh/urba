@@ -1,0 +1,8 @@
+# Le dossier racine de ton projet Rust
+rust_root: native
+
+# Le point d'entrée Rust - exposer les fonctions au niveau du crate
+rust_input: crate
+
+# SORTIE : On change le nom ici pour forcer la création d'un nouveau fichier propre
+dart_output: lib/services/rust_bridge/generated

@@ -1,0 +1,29 @@
+name: urba
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.3
+  flutter_rust_bridge: ^2.11.0
+  # Ajout de la dépendance pour la sauvegarde locale
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.10.5
+  ffi: ^2.1.5
+
+flutter:
+  uses-material-design: true

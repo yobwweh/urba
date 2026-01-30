@@ -1,0 +1,17 @@
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Rust
+target/
+**/*.rs.bk
+
+# Bridge généré (Optionnel : certains préfèrent le versionner, d'autres non)
+# lib/services/rust_bridge/generated/
+
+# OS
+.DS_Store
+.env
